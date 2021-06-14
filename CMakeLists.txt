@@ -18,10 +18,10 @@ endif()
 
 if(NOT CMAKE_BUILD_TARGET)
     message(STATUS "No target type selected, default to both shared and static library")
-    set(CMAKE_BUILD_TARGET "Both" CACHE STRING "" FORCE)
+    set(CMAKE_BUILD_TARGET "Shared" CACHE STRING "" FORCE)
 endif()
 
-option(BUILD_EXAMPLE "Build example program" ON)
+option(BUILD_EXAMPLE "Build example program" OFF)
 option(BUILD_TEST "Build test program" OFF)
 option(ENABLE_UVC_DEBUGGING "Enable UVC debugging" OFF)
 

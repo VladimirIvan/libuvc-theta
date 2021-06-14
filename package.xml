@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>libuvc_theta</name>
+  <version>0.0.0</version>
+  <description>The libuvc_theta package</description>
+
+  <maintainer email="v.ivan@ed.ac.uk">Vladimir Ivan</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>cmake</buildtool_depend>
+
+  <depend>libuvc-dev</depend>
+  <depend>libusb-1.0-dev</depend>
+  <depend>libjpeg</depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+</package>

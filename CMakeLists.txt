@@ -4,6 +4,8 @@ project(libuvc
   LANGUAGES C
 )
 
+set(DISABLE_PAL_FLAGS TRUE)
+
 # Additional search scripts path for libusb-1.0, libjpeg, OpenCV
 list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_LIST_DIR}/cmake)
 
